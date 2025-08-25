@@ -1,2 +1,98 @@
-# react-components
+# Modern React Components
+
 Production-ready React components following shadcn/ui principles. TypeScript-first, Tailwind-styled, Radix-powered. Beautiful defaults with complete customization freedom. The frontend UI toolkit for vibecoders who ship fast and own their code.
+
+## React AI Components
+
+| Name                                                               | Description                                                                                                                                  |
+| ------------------------------------------------------------------ | -------------------------------------------------------------------------------------------------------------------------------------------- |
+| **[Actions](https://www.shadcn.io/ai/actions)**                   | Interactive AI action buttons for React chat interfaces. Build engaging conversational UIs with TypeScript, tooltips, and shadcn/ui styling. |
+| **[Branch](https://www.shadcn.io/ai/branch)**                     | Branch between AI response variations like ChatGPT. React component for exploring multiple answers with TypeScript and shadcn/ui styling.    |
+| **[Code Block](https://www.shadcn.io/ai/code-block)**             | Syntax-highlighted code blocks with copy buttons for AI responses. React component with TypeScript, theme-aware colors, and shadcn/ui design. |
+| **[Conversation](https://www.shadcn.io/ai/conversation)**         | Auto-scrolling chat container that stays at bottom during streaming. React component with TypeScript and shadcn/ui for smooth AI conversations. |
+| **[Image](https://www.shadcn.io/ai/image)**                       | Display AI-generated images with loading states and error handling. React component for DALL-E and Midjourney with TypeScript and shadcn/ui. |
+| **[Inline Citation](https://www.shadcn.io/ai/inline-citation)**   | Inline citations with hover previews like Perplexity AI. React component for credible AI responses with TypeScript and shadcn/ui styling. |
+| **[Loader](https://www.shadcn.io/ai/loader)**                     | Animated loader for AI streaming responses. Smooth spinning indicator with React, TypeScript, and shadcn/ui that shows users AI is thinking. |
+| **[Message](https://www.shadcn.io/ai/message)**                   | Chat messages with avatars that distinguish user from AI. React component for clean conversation displays with TypeScript and shadcn/ui. |
+| **[Prompt Input](https://www.shadcn.io/ai/prompt-input)**         | ChatGPT-style input with auto-resize and model selector. React component with TypeScript, keyboard shortcuts, and shadcn/ui for AI chat. |
+| **[Reasoning](https://www.shadcn.io/ai/reasoning)**               | Show AI thinking process like Claude's "thinking" blocks. Collapsible React component with TypeScript and shadcn/ui for transparent AI. |
+| **[Response](https://www.shadcn.io/ai/response)**                 | Markdown renderer optimized for streaming AI responses. Handles incomplete code blocks and formatting with React, TypeScript, and shadcn/ui. |
+| **[Sources](https://www.shadcn.io/ai/sources)**                   | Expandable source citations like Perplexity's "Used 5 sources". React component for transparent AI with TypeScript and shadcn/ui styling. |
+| **[Suggestion](https://www.shadcn.io/ai/suggestion)**             | Suggestion chips like ChatGPT's follow-up prompts. Scrollable React pills for guiding conversations with TypeScript and shadcn/ui. |
+| **[Task](https://www.shadcn.io/ai/task)**                         | Task lists showing AI's work progress like Claude Artifacts. React component with file references, TypeScript, and shadcn/ui styling. |
+| **[Tool](https://www.shadcn.io/ai/tool)**                         | Display AI function calls like OpenAI's tool use. Collapsible React component showing parameters and results with TypeScript and shadcn/ui. |
+| **[Web Preview](https://www.shadcn.io/ai/web-preview)**           | Preview AI-generated websites like v0.dev's live viewer. React iframe component with navigation controls, TypeScript, and shadcn/ui design. |
+
+## React Button Components
+
+| Name                                                                             | Description                                                                                                                                   |
+| -------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------- |
+| **[Animated Modal](https://www.shadcn.io/button/animated-modal)**               | React animated modal button with 3D perspective and backdrop blur. Framer Motion creates smooth modal transitions with TypeScript and shadcn/ui styling. |
+| **[Copy](https://www.shadcn.io/button/copy)**                                   | React copy button with one-click clipboard copying and visual feedback. Smooth animations and state management with TypeScript and shadcn/ui styling. |
+| **[Corner Accent](https://www.shadcn.io/button/corner-accent-button)**          | React button with animated corner accents and sliding background effect. Features expanding corners and smooth transitions with TypeScript and shadcn/ui. |
+| **[Counter](https://www.shadcn.io/button/counter)**                             | React counter button with animated number display and increment/decrement controls. Framer Motion creates sliding number transitions with TypeScript and shadcn/ui. |
+| **[Flip](https://www.shadcn.io/button/flip)**                                   | React flip button with 3D animations that reveal hidden messages on hover. Smooth transitions and customizable directions with TypeScript and shadcn/ui. |
+| **[GitHub Stars](https://www.shadcn.io/button/github-stars)**                   | React GitHub stars button with live API counts and particle effects. Social proof component with animated transitions, TypeScript, and shadcn/ui styling. |
+| **[Icon](https://www.shadcn.io/button/icon)**                                   | React icon button with particle burst and glow effects on activation. Lucide icons with smooth animations, TypeScript support, and shadcn/ui styling. |
+| **[Input](https://www.shadcn.io/button/input)**                                 | React input button that transforms into input field with smooth transitions. Framer Motion animations and compound patterns with TypeScript and shadcn/ui. |
+| **[Liquid](https://www.shadcn.io/button/liquid)**                               | React liquid button with fluid fill animations and gradient effects. Multiple color variants and smooth hover transitions with TypeScript and shadcn/ui styling. |
+| **[Magnetic](https://www.shadcn.io/button/magnetic-button)**                    | React magnetic button with animated particles that attract to center on hover. Features Framer Motion spring physics and customizable particle effects with TypeScript and shadcn/ui. |
+| **[Rating](https://www.shadcn.io/button/rating)**                               | React rating button with interactive star ratings and hover effects. Lucide icons with keyboard navigation and form integration using TypeScript and shadcn/ui. |
+| **[Ripple](https://www.shadcn.io/button/ripple)**                               | React ripple button with Material Design click animations. Position-aware ripple effects and multiple color variants with TypeScript and shadcn/ui styling. |
+| **[Text Reveal](https://www.shadcn.io/button/text-reveal)**                     | React button with animated text reveal effect on hover. Smooth border animation unveils text with glowing shadows and stroke effects using TypeScript and shadcn/ui. |
+| **[Theme Switcher](https://www.shadcn.io/button/theme-switcher)**               | React theme switcher with light, dark, and system modes. Three-way toggle with system preference detection and smooth icon transitions using TypeScript and shadcn/ui. |
+| **[Theme Toggle](https://www.shadcn.io/button/theme-toggle)**                   | React dark mode toggle with animated sun/moon icons and View Transitions API. Smooth theme switching with multiple animation effects, TypeScript, and shadcn/ui. |
+
+## React Hook Components
+
+| Name                                                                            | Description                                                                                                                                   |
+| ------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------- |
+| **[useBoolean](https://www.shadcn.io/hooks/use-boolean)**                      | React useBoolean hook with true/false/toggle helpers. Clean boolean state management with TypeScript support for Next.js and React applications. |
+| **[useClickAnyWhere](https://www.shadcn.io/hooks/use-click-anywhere)**         | React useClickAnyWhere hook for global click detection. Track document clicks with TypeScript support for Next.js and React applications. |
+| **[useCopyToClipboard](https://www.shadcn.io/hooks/use-copy-to-clipboard)**    | React useCopyToClipboard hook for clipboard operations. Copy text with automatic feedback state using TypeScript support for Next.js apps. |
+| **[useCountdown](https://www.shadcn.io/hooks/use-countdown)**                   | React useCountdown hook for countdown timers. Flexible timer with start/stop/reset controls using TypeScript support for Next.js applications. |
+| **[useCounter](https://www.shadcn.io/hooks/use-counter)**                      | React useCounter hook for numeric state management. Increment, decrement, and reset controls with TypeScript support for Next.js applications. |
+| **[useDarkMode](https://www.shadcn.io/hooks/use-dark-mode)**                   | React useDarkMode hook with OS preference sync and localStorage persistence. Dark mode management with TypeScript support for Next.js applications. |
+| **[useDebounceCallback](https://www.shadcn.io/hooks/use-debounce-callback)**   | React useDebounceCallback hook for debouncing function calls. Control API requests and expensive operations with TypeScript support for Next.js apps. |
+| **[useDebounceValue](https://www.shadcn.io/hooks/use-debounce-value)**         | React useDebounceValue hook for debounced state management. Optimize search inputs and form values with TypeScript support for Next.js apps. |
+| **[useDocumentTitle](https://www.shadcn.io/hooks/use-document-title)**         | React useDocumentTitle hook for dynamic browser tab titles. Real-time updates with unread counts and status indicators using TypeScript for Next.js apps. |
+| **[useEventCallback](https://www.shadcn.io/hooks/use-event-callback)**         | React useEventCallback hook for stable event callbacks. Solve useCallback dependency issues with TypeScript support for Next.js applications. |
+| **[useEventListener](https://www.shadcn.io/hooks/use-event-listener)**         | React useEventListener hook for DOM event listeners. Automatic cleanup and TypeScript safety with JavaScript integration for Next.js apps. |
+| **[useHover](https://www.shadcn.io/hooks/use-hover)**                          | React useHover hook for hover state detection. Track mouse interactions with precise event handling and TypeScript support for Next.js applications. |
+| **[useIntersectionObserver](https://www.shadcn.io/hooks/use-intersection-observer)** | React IntersectionObserver hook for element visibility detection. Track viewport intersections with configurable thresholds for Next.js apps. |
+| **[useInterval](https://www.shadcn.io/hooks/use-interval)**                    | React useInterval hook for setInterval management. Automatic cleanup and pause/resume functionality for timers with TypeScript support for Next.js apps. |
+| **[useIsClient](https://www.shadcn.io/hooks/use-is-client)**                   | React useIsClient hook for client-side detection. Prevent hydration mismatches and safely access browser APIs with TypeScript support for Next.js apps. |
+| **[useIsMounted](https://www.shadcn.io/hooks/use-is-mounted)**                 | React useIsMounted hook for mount state detection. Prevent memory leaks from async operations and avoid setState warnings with TypeScript support for Next.js. |
+| **[useIsomorphicLayoutEffect](https://www.shadcn.io/hooks/use-isomorphic-layout-effect)** | React useIsomorphicLayout hook for SSR-safe layout effects. Prevent hydration warnings while maintaining synchronous DOM access with TypeScript. |
+| **[useLocalStorage](https://www.shadcn.io/hooks/use-local-storage)**           | React useLocalStorage hook for persistent state. Automatic serialization with cross-tab synchronization and SSR support using TypeScript for Next.js apps. |
+| **[useMap](https://www.shadcn.io/hooks/use-map)**                              | React useMap hook for Map state management. Type-safe key-value operations with immutable updates and performance optimization using TypeScript for Next.js. |
+| **[useMediaQuery](https://www.shadcn.io/hooks/use-media-query)**               | React useMediaQuery hook for responsive design. Track breakpoints and user preferences with real-time updates and SSR support using TypeScript for Next.js. |
+| **[useMousePosition](https://www.shadcn.io/hooks/use-mouse-position)**         | React useMousePosition hook for mouse tracking. Get real-time cursor coordinates with element-relative positioning and TypeScript support for Next.js apps. |
+| **[useOnClickOutside](https://www.shadcn.io/hooks/use-on-click-outside)**      | React useOnClickOutside hook for outside click detection. Handle modal dismissal and dropdown closing with multiple element support using TypeScript for Next.js. |
+| **[useReadLocalStorage](https://www.shadcn.io/hooks/use-read-local-storage)**  | React useReadLocalStorage hook for localStorage reading. Get reactive values with cross-tab synchronization and SSR support using TypeScript for Next.js. |
+| **[useResizeObserver](https://www.shadcn.io/hooks/use-resize-observer)**       | React useResizeObserver hook for element resize detection. Monitor DOM element size changes with ResizeObserver API and TypeScript support for Next.js apps. |
+| **[useScreen](https://www.shadcn.io/hooks/use-screen)**                        | React useScreen hook for screen information tracking. Monitor display dimensions, orientation, and capabilities with TypeScript support for Next.js apps. |
+| **[useScript](https://www.shadcn.io/hooks/use-script)**                        | React useScript hook for dynamic script loading. Load third-party libraries with status tracking, caching, and error handling using TypeScript for Next.js. |
+| **[useScrollLock](https://www.shadcn.io/hooks/use-scroll-lock)**               | React useScrollLock hook for scroll prevention. Lock document or element scrolling with layout shift prevention and automatic cleanup using TypeScript for Next.js. |
+| **[useSessionStorage](https://www.shadcn.io/hooks/use-session-storage)**       | React useSessionStorage hook for session storage management. Persist temporary state across page reloads with automatic serialization using TypeScript for Next.js. |
+| **[useStep](https://www.shadcn.io/hooks/use-step)**                            | React useStep hook for step navigation. Manage multi-step processes with automatic boundary checking and progress tracking using TypeScript for Next.js apps. |
+| **[useTernaryDarkMode](https://www.shadcn.io/hooks/use-ternary-dark-mode)**    | React useTernaryDarkMode hook for ternary dark mode management. Handle system, dark, and light modes with automatic system preference detection using TypeScript for Next.js. |
+| **[useTimeout](https://www.shadcn.io/hooks/use-timeout)**                      | React useTimeout hook for setTimeout management. Handle delayed actions with automatic cleanup, dynamic control, and cancellation support using TypeScript for Next.js. |
+| **[useToggle](https://www.shadcn.io/hooks/use-toggle)**                        | React useToggle hook for boolean toggle management. Handle state toggling with useState-like array pattern and memoized performance optimization using TypeScript. |
+| **[useUnmount](https://www.shadcn.io/hooks/use-unmount)**                      | React useUnmount hook for component unmount cleanup. Handle memory leaks, cancel subscriptions, and clear timers automatically using TypeScript for Next.js apps. |
+| **[useWindowSize](https://www.shadcn.io/hooks/use-window-size)**               | React useWindowSize hook for window dimension tracking. Handle responsive design with automatic resize detection, debouncing, and SSR compatibility using TypeScript. |
+
+## React Text Components
+
+| Name                                                                           | Description                                                                                                                                   |
+| ------------------------------------------------------------------------------ | --------------------------------------------------------------------------------------------------------------------------------------------- |
+| **[Counting Number](https://www.shadcn.io/text/counting-number)**             | React counting number component with spring animations. TypeScript counters with in-view detection and decimal support for Next.js apps using shadcn/ui. |
+| **[Gradient Text](https://www.shadcn.io/text/gradient-text)**                 | React gradient text with smooth flowing colors and neon effects. Built with Framer Motion, TypeScript, and shadcn/ui for Next.js apps. |
+| **[Highlight Text](https://www.shadcn.io/text/highlight-text)**               | React text highlighting with smooth expanding backgrounds. Animate highlights from zero to emphasize phrases using Motion, TypeScript, and shadcn/ui. |
+| **[Rolling Text](https://www.shadcn.io/text/rolling-text)**                   | React 3D rolling text with character-by-character reveals. Smooth rotation physics built with Motion, TypeScript, and shadcn/ui for Next.js apps. |
+| **[Rotating Text](https://www.shadcn.io/text/rotating-text)**                 | React rotating text with smooth vertical transitions. Cycle through multiple phrases with clean animations using Motion, TypeScript, and shadcn/ui for Next.js apps. |
+| **[Shimmering Text](https://www.shadcn.io/text/shimmering-text)**             | React shimmering text with smooth wave animations. Character-by-character shimmer effects built with Motion, TypeScript, and shadcn/ui for Next.js apps. |
+| **[Sliding Number](https://www.shadcn.io/text/sliding-number)**               | React sliding number component with digit-by-digit animations. Smooth mechanical counter effects with spring physics using Motion, TypeScript, and shadcn/ui. |
+| **[Splitting Text](https://www.shadcn.io/text/splitting-text)**               | React text splitting with staggered character, word, or line reveals. Smooth animations that flow naturally using Framer Motion, TypeScript, and shadcn/ui. |
+| **[Typing Text](https://www.shadcn.io/text/typing-text)**                     | React typewriter effect with realistic typing speeds and cursor behavior. Human-like character animations built with Motion, TypeScript, and shadcn/ui. |
+| **[Writing Text](https://www.shadcn.io/text/writing-text)**                   | React writing text with word-by-word reveals and natural timing. Progressive text animation built with Motion, TypeScript, and shadcn/ui for Next.js apps. |
